@@ -404,7 +404,7 @@ GameObject:
   - component: {fileID: 663796156}
   - component: {fileID: 663796157}
   m_Layer: 0
-  m_Name: Background_NumberWizard_0
+  m_Name: Background_NumberWizard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -600,7 +600,7 @@ GameObject:
   - component: {fileID: 759341728}
   - component: {fileID: 759341729}
   m_Layer: 0
-  m_Name: GuessBackgroundNumberWizard_0
+  m_Name: GuessBackgroundNumberWizard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -687,7 +687,7 @@ GameObject:
   - component: {fileID: 783427757}
   - component: {fileID: 783427758}
   m_Layer: 0
-  m_Name: Gemini_Generated_Image_w0r26hw0r26hw0r2_0
+  m_Name: TextHolderNumberWizard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
