@@ -30,7 +30,7 @@ Wenn die Zahl höher ist → neuer Bereich: 51–100
 Wenn die Zahl niedriger ist → neuer Bereich: 1–49
 Unity-Version
 
-Dieses Projekt wurde mit Unity [DEINE_VERSION_HIER] erstellt.
+Dieses Projekt wurde mit Unity 6000.0.57f1 erstellt.
 
 Startszene
 
