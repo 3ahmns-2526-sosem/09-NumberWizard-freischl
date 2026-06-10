@@ -1,36 +1,39 @@
-# 09-helloGH-freischl
-# Hello World – Unser erstes GitHub-Projekt
+Number Guessing Game
 
-## Beschreibung
-Dieses Repository enthält unser erstes Hello-World-Projekt. Ziel ist es, den grundlegenden Workflow von Git und GitHub kennenzulernen und praktisch anzuwenden.
+Ein kleines Unity-Spiel, bei dem der Spieler eine Zahl durch binäre Suche erraten muss.
 
-## Ziel des Projekts
-- Einführung in Versionskontrolle mit Git  
-- Arbeiten mit einem GitHub-Repository  
-- Verstehen des typischen Workflows:
-  - Repository erstellen  
-  - Dateien hinzufügen und ändern  
-  - Commits erstellen  
-  - Änderungen pushen  
-  - Optional: Branches und Pull Requests nutzen  
+Ziel des Spiels
 
-## Inhalt
-Das Projekt besteht aus einem einfachen Hello-World-Programm, das als Grundlage dient, um Änderungen nachzuverfolgen und den Umgang mit Git zu üben.
+Das Spiel denkt sich eine Zahl aus.
+Der Spieler versucht, die richtige Zahl zu finden, indem er Hinweise verwendet.
 
-## Verwendete Tools
-- Git  
-- GitHub  
+Steuerung / Buttons
+Higher
+Die gesuchte Zahl ist höher als die aktuell angezeigte Zahl.
+Lower
+Die gesuchte Zahl ist niedriger als die aktuell angezeigte Zahl.
+Correct
+Die aktuell angezeigte Zahl ist richtig.
+Restart
+Startet das Spiel neu und setzt alle Werte zurück.
+Binäre Suche
 
-## Workflow (kurz erklärt)
-1. Repository klonen  
-2. Datei erstellen oder bearbeiten  
-3. Änderungen mit `git add` hinzufügen  
-4. Commit mit `git commit` erstellen  
-5. Änderungen mit `git push` hochladen  
+Das Spiel verwendet das Prinzip der binären Suche:
+Nach jedem Hinweis wird der mögliche Zahlenbereich halbiert.
+Dadurch kann die richtige Zahl sehr schnell gefunden werden.
 
-## Fazit
-Dieses Projekt dient als Einstieg in die Versionskontrolle und bildet die Grundlage für zukünftige, komplexere Projekte.
+Beispiel:
 
-Kleine Änderung hier passiert
+Bereich: 1–100
+Mitte = 50
+Wenn die Zahl höher ist → neuer Bereich: 51–100
+Wenn die Zahl niedriger ist → neuer Bereich: 1–49
+Unity-Version
 
-Änderung auf GH
+Dieses Projekt wurde mit Unity [DEINE_VERSION_HIER] erstellt.
+
+Startszene
+
+Die Startszene des Projekts ist:
+
+MainScene
