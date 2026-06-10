@@ -52,12 +52,18 @@ public class Calculate : MonoBehaviour
         higherButton.interactable = false;
         lowerButton.interactable = false;
         correctButton.interactable = false;
+        StartCoroutine(TimerForRestart());
     }
     private IEnumerator TimerForRestart()
     {
         // Restartet das Game nach bestimmter Zeit
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(3);
         Debug.Log("Finished Coroutine at timestamp : " + Time.time);
+        SceneManager.LoadScene(0);
+    }
+    public void ReloadScene()
+    {
+        // Reload Scene
         SceneManager.LoadScene(0);
     }
 }
