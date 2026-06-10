@@ -1076,6 +1076,9 @@ MonoBehaviour:
   min: 1
   max: 100
   guessText: {fileID: 1425005296}
+  higherButton: {fileID: 1242385586}
+  lowerButton: {fileID: 909884963}
+  correctButton: {fileID: 908486462}
 --- !u!1 &1242385584
 GameObject:
   m_ObjectHideFlags: 0
