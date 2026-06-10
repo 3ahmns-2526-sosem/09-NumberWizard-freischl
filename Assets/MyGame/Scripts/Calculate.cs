@@ -28,4 +28,9 @@ public class Calculate : MonoBehaviour
             guessText.text = "Guess: " + guess;
         }
     }
+    public void OnHigherPressed()
+    {
+        min = guess + 1;
+        CalculateFirstGuess();
+    }
 }
