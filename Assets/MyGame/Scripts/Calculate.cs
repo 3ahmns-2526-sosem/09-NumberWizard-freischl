@@ -1,6 +1,5 @@
 using TMPro;
 using UnityEngine;
-
 public class Calculate : MonoBehaviour
 {
     [SerializeField] private int min;
@@ -9,6 +8,7 @@ public class Calculate : MonoBehaviour
     private int guess;
 
     [SerializeField] private TextMeshProUGUI guessText;
+
     void Start()
     {
         CalculateFirstGuess();
@@ -34,5 +34,9 @@ public class Calculate : MonoBehaviour
     {
         max = guess - 1;
         CalculateFirstGuess();
+    }
+    public void OnCorrectPressed()
+    {
+        guessText.text = "I guessed your Numberrrrr!";
     }
 }
